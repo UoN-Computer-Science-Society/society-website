@@ -10,20 +10,13 @@ Features include:
 - Develop a calendar view to display planned events
 - Provide an area to display all completed society projects
 
-## Contributing to the project
-### Frontend
-Fork the repository using the button from the top right<br>
-Clone your forked repository
-```
-git clone git@github.com:<username>/society-website.git
-```
+## Contributing to the project Guidelines for contributors who want to help improve the project.
 
-### Backend
-Fork the repository using the button from the top right<br>
-Clone your forked repository
-```
-git clone git@github.com:<username>/society-website.git
-```
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`.
+3. Commit your changes: `git commit -am 'Add some feature'`.
+4. Push the branch to your fork: `git push origin feature/your-feature-name`.
+5. Create a pull request detailing your changes.
 
 ### License
 ```
