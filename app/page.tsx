@@ -18,12 +18,13 @@ import getEvents from '@/actions/getEvent';
 import getBlogs from '@/actions/getBlogs';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import Head from 'next/head';
 
 export const revalidate = 0
 
-export const metadata:Metadata = {
+export const metadata: Metadata = {
     title: 'Home | UNM Computer Science Society',
-    description:'Explore our latest events and announcements in our official website'
+    description: 'Explore our latest events and announcements in our official website'
 }
 
 export default async function Home() {
@@ -31,7 +32,7 @@ export default async function Home() {
     const event = await getEvents();
     const blogs = await getBlogs();
     return (
-            
+
         <>
             <Marquee speed={30}>
                 <NoticeBoard />
